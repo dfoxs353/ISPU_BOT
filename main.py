@@ -50,7 +50,7 @@ def button_click(update, context):
         reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
         update.message.reply_text('Выберите факультет:', reply_markup=reply_markup)
     elif text == 'ИВТФ': 
-        post(update,context=context,url="http://ispu.ru/files/imagecache/640x480/cck-images/Korpusa_na_plane.jpg",text="ЕгороваКрутая")  
+        post(update,context=context,url="http://ispu.ru/files/imagecache/640x480/cck-images/Korpusa_na_plane.jpg",text="ЕгороваКрутаяЕЕЕ")  
         keyboard = [
             [ 'Посмотреть карту ВУЗа', 'Узнать новости ВУЗа', 'Информация о факультетах']
         ]
